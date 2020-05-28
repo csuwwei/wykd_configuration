@@ -1,0 +1,17 @@
+server:
+  port: 9070
+  servlet:
+    context-path: /wykd-nacos-provider
+spring:
+  application:
+    name: service-wykd-nocos-provider
+  cloud:
+    nacos:
+      discovery:
+#        server-addr: 120.24.87.121:8848
+        server-addr: localhost:8848
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

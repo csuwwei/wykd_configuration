@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DatabaseConfiguration.java&apos; to &apos;wykd-hmily-tcc-zhangsan/src/main/java/com.wykd.meishi&apos;&#x0D;&#x0A;- Original project: &apos;dtx-tcc-demo-bank2&apos;&#x0D;&#x0A;- Destination element: &apos;wykd-hmily-tcc-zhangsan/src/main/java/com.wykd.meishi&apos;&#x0D;&#x0A;- Original element: &apos;com.pbteach.dtx.tccdemo.bank2.config.DatabaseConfiguration.java&apos;" description="Copy compilation unit" destination="=wykd-hmily-tcc-zhangsan/src\/main\/java&lt;com.wykd.meishi" element1="/src\/main\/java&lt;com.pbteach.dtx.tccdemo.bank2.config{DatabaseConfiguration.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1569035921075" units="1" version="1.0"/>
+</session>

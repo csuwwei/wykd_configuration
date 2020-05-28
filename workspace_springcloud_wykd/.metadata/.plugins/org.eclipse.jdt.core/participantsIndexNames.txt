@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+D:\Alex_Java\workspace\workspace_series_springCloud\workspace_springcloud_wykd\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3433816018.index
+\wykd-ssoServer-jiadian\src\main\java
+D:\Alex_Java\workspace\workspace_series_springCloud\workspace_springcloud_wykd\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1860606581.index
+\wykd-ssoServer-jiadian\src\main\java

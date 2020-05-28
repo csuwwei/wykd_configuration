@@ -1,0 +1,19 @@
+server:
+  port: 9060
+  servlet:
+    context-path: /config-client
+spring:
+  cloud:
+    config:
+      label: master
+      profile: dev
+      uri: http://localhost:8030/wykd-config/
+  application:
+    name: config-client
+eureka:
+#  instance:
+#    prefer-ip-address: true
+#    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+  client:
+    service-url: 
+      defaultZone: http://localhost:8010/wykd-eureka/eureka/

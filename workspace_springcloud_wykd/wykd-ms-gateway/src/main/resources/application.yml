@@ -1,0 +1,30 @@
+server:
+  port: 8001
+  servlet:
+    context-path: /wykd-gateway
+spring:
+  application:
+    name: service-wykd-gateway
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url: 
+      defaultZone: http://localhost:8010/wykd-eureka/eureka
+#zuul:
+#  routes:
+#    service-wykd-movie:
+#      path: /movie/services/**
+#      serviceId: service-wykd-movie
+#    service-wykd-user:
+#      path: /user/services/**
+#      serviceId: service-wykd-user
+#    service-wykd-meishi:
+#      path: /meishi/services/**
+#      serviceId: service-wykd-meishi
+#开启所有暴露端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

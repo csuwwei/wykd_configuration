@@ -1,0 +1,19 @@
+server:
+  port: 9030
+  servlet:
+    context-path: /wykd-yundong
+spring:
+  application:
+    name: service-wykd-yundong
+  rabbitmq:
+    host: 120.78.168.84
+    port: 5672
+    username: guest
+    password: guest
+eureka:
+#  instance:
+#    prefer-ip-address: true
+#    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+  client:
+    service-url: 
+      defaultZone: http://localhost:8010/wykd-eureka/eureka/

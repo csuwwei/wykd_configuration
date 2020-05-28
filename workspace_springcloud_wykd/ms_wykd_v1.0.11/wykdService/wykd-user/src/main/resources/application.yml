@@ -1,0 +1,19 @@
+server:
+  port: 9000
+  servlet:
+    context-path: /wykd-user
+spring:
+  application:
+    name: service-wykd-user
+  datasource:
+    url: jdbc:mysql://120.78.168.84:3306/test
+    username: root
+    password: 2048
+    driver-class-name: com.mysql.jdbc.Driver    
+eureka:
+#  instance:
+#    prefer-ip-address: true
+#    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+  client:
+    service-url: 
+      defaultZone: http://localhost:8010/wykd-eureka/eureka/

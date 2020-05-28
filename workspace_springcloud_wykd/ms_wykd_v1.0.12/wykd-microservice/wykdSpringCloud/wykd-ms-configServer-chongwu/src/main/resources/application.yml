@@ -1,0 +1,23 @@
+server:
+  port: 8030
+  servlet:
+    context-path: /wykd-config
+spring:
+  cloud:
+    config:
+      label: master
+      server: 
+        git:
+          uri: https://github.com/csuwwei/wykd_configuration
+          searchPaths: repo
+          username: 
+          password: 
+  application:
+    name: service-wykd-config
+eureka:
+#  instance:
+#    prefer-ip-address: true
+#    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+  client:
+    service-url: 
+      defaultZone: http://localhost:8010/wykd-eureka/eureka/

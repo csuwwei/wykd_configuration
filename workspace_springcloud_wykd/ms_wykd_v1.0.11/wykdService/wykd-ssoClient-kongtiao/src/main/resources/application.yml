@@ -1,0 +1,7 @@
+server:
+  port: 9022
+  servlet:
+    context-path: /wykd-kongtiao
+spring:
+  application:
+    name: service-wykd-kongtiao

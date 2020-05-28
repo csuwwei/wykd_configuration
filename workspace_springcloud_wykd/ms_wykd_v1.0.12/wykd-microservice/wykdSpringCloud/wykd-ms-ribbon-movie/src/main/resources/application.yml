@@ -1,0 +1,22 @@
+server:
+  port: 9010
+  servlet:
+    context-path: /wykd-movie
+spring:
+  application:
+    name: service-wykd-movie
+eureka:
+  instance:
+    instance-id: http://${spring.cloud.client.ip-address}:${server.port}${server.servlet.context-path}
+    prefer-ip-address: true
+  client:
+    service-url: 
+      defaultZone: http://localhost:8010/wykd-eureka/eureka/
+management:
+  server:
+    servlet:
+      context-path: /wykd-movie/actuator
+  endpoints:
+    web:
+      exposure:
+        include: "*"      

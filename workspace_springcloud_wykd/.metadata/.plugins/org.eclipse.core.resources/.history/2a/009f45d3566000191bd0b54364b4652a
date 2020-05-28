@@ -1,0 +1,5 @@
+package com.wykd.user.util;
+
+public class FileStreamUtil {
+
+}

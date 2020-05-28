@@ -1,0 +1,12 @@
+server:
+  port: 9024
+  servlet:
+    context-path: /wykd-bingxiang
+spring:
+  application:
+    name: service-wykd-bingxiang
+cas:
+  server-url-prefix: http://localhost:8080/cas
+  server-login-url: http://localhost:8080/cas/login
+  client-host-url: http://localhost:9024/wykd-bingxiang
+  validation-type: cas
