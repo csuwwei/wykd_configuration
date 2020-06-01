@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;com.wykd.nacos.NacosNamingClientApplication&apos; to &apos;NacosNamingProviderApplication&apos;&#x0D;&#x0A;- Original project: &apos;wykd-ali-nacos-provider&apos;&#x0D;&#x0A;- Original element: &apos;com.wykd.nacos.NacosNamingClientApplication&apos;&#x0D;&#x0A;- Renamed element: &apos;com.wykd.nacos.NacosNamingProviderApplication&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;NacosNamingClientApplication&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.wykd.nacos{NacosNamingClientApplication.java[NacosNamingClientApplication" matchStrategy="1" name="NacosNamingProviderApplication" qualified="false" references="true" similarDeclarations="false" stamp="1581345956560" textual="false" version="1.0"/>
-</session>

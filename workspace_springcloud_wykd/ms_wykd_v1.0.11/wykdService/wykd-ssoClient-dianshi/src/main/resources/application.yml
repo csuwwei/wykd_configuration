@@ -1,8 +1,0 @@
-server:
-  port: 9023
-  servlet:
-    context-path: /wykd-dianshi
-spring:
-  application:
-    name: service-wykd-dianshi
-

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete 4 resources" deleteContents="false" description="Delete 4 resources" element1="/wykd-sso-casClient-bingxiang" element2="/wykd-sso-client-dianshi" element3="/wykd-sso-client-kongtiao" element4="/wykd-sso-server-jiadian" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="4" stamp="1559916984654"/>
-</session>
